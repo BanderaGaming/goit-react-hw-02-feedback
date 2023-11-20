@@ -1,0 +1,9 @@
+.statsBox {
+  display: flex;
+  flex-direction: column;
+}
+.statsBox > li {
+  font-size: large;
+  font-weight: 400;
+  list-style: none;
+}

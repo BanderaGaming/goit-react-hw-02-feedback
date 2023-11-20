@@ -1,0 +1,10 @@
+.btn {
+  border-radius: 5px;
+  border-color: wheat;
+  font-weight: 500;
+}
+.btnField {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}

@@ -19,11 +19,10 @@ export class Feedback extends Component {
     return total;
   }
 
-  handleIncrement = e => {
-    const typeOfBtn = e.target.textContent;
+  handleIncrement = id => {
     this.setState(prevState => {
       return {
-        [typeOfBtn]: prevState[typeOfBtn] + 1,
+        [id]: prevState[id] + 1,
       };
     });
   };
